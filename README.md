@@ -1,44 +1,69 @@
-<h1 align="center">Hi, I'm Muhammad Abdullah 👋</h1>
+<h1 align="center">Muhammad Abdullah</h1>
 
-<h3 align="center">Data Engineer in the Making | AI-Aware, Pipeline-Focused</h3>
+<h3 align="center">Data Engineer × AI Systems | Pipelines that power intelligent products</h3>
 
 <p align="center">
-  <a href="https://twitter.com/abdulah_xx" target="_blank">
-    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-  </a>
   <a href="https://www.linkedin.com/in/muhammad-abdullah-53b843248/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:muhammad.abdullahds1@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white" alt="Email">
   </a>
+  <a href="https://twitter.com/abdulah_xx" target="_blank">
+    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
+  </a>
   <a href="https://kaggle.com/abddullah" target="_blank">
     <img src="https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle">
   </a>
+  <img src="https://komarev.com/ghpvc/?username=abdulah-x&style=for-the-badge&color=2C3E50" alt="Profile Views">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2C3E50&center=true&vCenter=true&width=600&lines=Building+pipelines+that+feed+intelligent+systems;SQL+%E2%86%92+Python+%E2%86%92+Spark+%E2%86%92+Cloud+%E2%86%92+AI;Where+data+engineering+meets+machine+learning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2C3E50&center=true&vCenter=true&width=600&lines=Shipped+a+RAG+system+in+production;Built+an+8-microservice+surveillance+platform;Now+going+deeper+into+data+infrastructure" alt="Typing SVG" />
 </p>
 
 ---
 
-## 🚀 About Me
+## 🎯 The Short Version
 
-Fresh **Data Science graduate** moving into the **Data Engineering + AI** track. My focus is on the infrastructure side of intelligent systems — the pipelines, storage layers, and orchestration that make ML and LLM-powered products actually work in production.
+Data Science graduate building at the intersection of **data engineering and AI systems**. I've shipped a RAG-based relevancy evaluator in production, built an 8-microservice surveillance platform end-to-end, and run n8n automation workflows that real businesses depend on.
 
-I'm building toward a hybrid role: a Data Engineer who understands AI/ML workflows deeply enough to design pipelines around them — feature stores, vector databases, RAG systems, training data pipelines, the whole loop.
+Now I'm going deeper into the **infrastructure layer** — Airflow, Spark, dbt, warehousing — because the next generation of AI products will live or die by their data pipelines.
 
-- 🎓 **Just graduated** with a degree in Data Science
-- 🔨 **Currently building:** ETL/ELT pipelines, RAG systems, and AI-powered automation workflows
-- 🌱 **Currently learning:** Apache Airflow, Spark, dbt, AWS data services, and vector databases
-- 🎯 **Goal:** Data Engineer roles with AI/ML exposure — bridging data infrastructure and intelligent applications
-- 💬 **Happy to chat about:** SQL, Python, data modeling, RAG, LLM pipelines, or career paths
-- 📸 **Fun fact:** Also a photographer — same instinct for noticing structure, different output
+**Looking for:** Data Engineer / AI Engineer roles, remote or Pakistan-based.
 
 ---
 
-## 🛠️ Tech Stack
+## ⚡ Currently
+
+- 🔨 **Building** end-to-end ETL pipelines with Airflow + Postgres, Dockerized and scheduled
+- 📚 **Studying** Spark partitioning patterns and dbt project structure
+- 🧪 **Experimenting** with vector DBs and production-grade RAG architectures
+- 💼 **Open to** Data Engineer / AI Engineer roles — full-time or contract
+
+---
+
+## 🏗️ Featured Work
+
+### 🦅 Hawk-Ear — Audio-Video Surveillance Platform
+Dockerized platform with **8 microservices** running real-time audio + video analysis. Final Year Project, ~90% solo contribution, evaluated 3× by faculty.  
+`Python` · `Docker` · `FastAPI` · `Microservices`
+
+### 🤖 RAG-Based Relevancy Evaluator *(Paramount Intelligence)*
+LLM pipeline evaluating content relevance via retrieval-augmented generation. Shipped to production.  
+`Python` · `LLMs` · `Vector Search` · `RAG`
+
+### 💼 VaultX — Crypto Portfolio Analytics
+Full-stack platform tracking P&L, ROI, and allocation across Binance Testnet assets. Data pipeline + dashboard.  
+`Python` · `FastAPI` · `Binance API` · `PostgreSQL`
+
+### ⚙️ n8n Production Workflows *(Paramount Intelligence)*
+WhatsApp chatbot and Airtable/Python automations running in production for live business operations.  
+`n8n` · `Python` · `Webhooks` · `Airtable`
+
+---
+
+## 🛠️ Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -46,7 +71,6 @@ I'm building toward a hybrid role: a Data Engineer who understands AI/ML workflo
   <img src="https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash">
   <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
   <img src="https://img.shields.io/badge/-BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="BigQuery">
   <img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
@@ -77,46 +101,23 @@ I'm building toward a hybrid role: a Data Engineer who understands AI/ML workflo
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulah-x&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
----
-
-## 📂 Featured Projects
-
-> *Where data engineering meets AI — pinned repos below.*
-
-- **🦅 Hawk-Ear — Dockerized Audio-Video Surveillance Platform**  
-  Final Year Project. 8 microservices, end-to-end pipeline for real-time audio + video analysis. Solo build (~90% contribution).
-- **💼 VaultX — Crypto Portfolio Analytics Platform**  
-  Full-stack platform tracking P&L, ROI, and allocation across Binance Testnet assets. Data pipelines + dashboard.
-- **🤖 RAG-Based Relevancy Evaluator**  
-  Built at Paramount Intelligence — LLM pipeline for evaluating content relevance with retrieval-augmented generation.
-- **⚙️ n8n Automation Workflows**  
-  Production workflows including a WhatsApp chatbot and Airtable/Python data automations.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
 
 ---
 
-## 📈 What I'm Reading & Learning
+## 🤝 Let's Build Something
 
-- *Fundamentals of Data Engineering* — Reis & Housley
-- *Designing Data-Intensive Applications* — Kleppmann
-- Data Engineering Zoomcamp (DataTalks.Club)
-- Building hands-on with LangChain, vector DBs, and modern data orchestration tools
-
----
-
-## 🤝 Let's Connect
-
-I'm actively looking for **Data Engineer / AI Engineer roles** (remote or in Pakistan) — especially positions where data infrastructure meets ML/LLM systems. Open to full-time, contract, and meaningful collaborations.
+Hiring, collaborating, or just curious about the work? I respond fast.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/muhammad-abdullah-53b843248/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/-Message_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:muhammad.abdullahds1@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://instagram.com/abdulah.photos" target="_blank">
-    <img src="https://img.shields.io/badge/-@abdulah.photos-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+    <img src="https://img.shields.io/badge/-Send_Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white" alt="Email">
   </a>
 </p>
 
-<p align="center"><i>"Models get the spotlight. Pipelines do the work."</i></p>
+<p align="center"><i>Models get the spotlight. Pipelines do the work.</i></p>
