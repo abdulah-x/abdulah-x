@@ -24,15 +24,14 @@
 
 ---
 
-## 🎯 The Short Version
+### Introduction
 
-Data Science graduate building at the intersection of **data engineering and AI systems**. I've shipped a RAG-based relevancy evaluator in production, built an 8-microservice surveillance platform end-to-end, and run n8n automation workflows that real businesses depend on.
+I'm a recent Data Science graduate focused on building reliable data systems for AI-driven products. My experience spans both sides of the stack: I've shipped a production RAG-based relevancy evaluator, built an 8-microservice surveillance platform as my final-year project, and developed n8n automation workflows currently running in live business operations.
 
-Now I'm going deeper into the **infrastructure layer** — Airflow, Spark, dbt, warehousing — because the next generation of AI products will live or die by their data pipelines.
+I'm now investing in the core data engineering toolkit — Airflow, Spark, dbt, and cloud warehousing — to deepen the foundation that AI applications depend on.
 
-**Looking for:** Data Engineer / AI Engineer roles, remote or Pakistan-based.
+Open to **Data Engineer and AI Engineer opportunities**, remote or Pakistan-based.
 
----
 
 ## ⚡ Currently
 
