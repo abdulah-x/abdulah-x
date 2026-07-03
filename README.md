@@ -86,18 +86,19 @@ WhatsApp chatbot and Airtable/Python automations running in production for live 
 
 ---
 
-## 📊 GitHub Stats
+### GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdulah-x&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abdulah-x&theme=github_dark" alt="Profile Details" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulah-x&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=abdulah-x&theme=github_dark" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=abdulah-x&theme=github_dark" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulah-x&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulah-x&theme=dark&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
