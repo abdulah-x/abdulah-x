@@ -1,0 +1,29 @@
+name: Generate Profile Summary Cards
+
+# Renders the profile summary cards from a personal access token instead of
+# the public Vercel instance, so private repositories are included in the
+# language and stats totals.
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN }}
+        with:
+          USERNAME: abdulah-x
+          BRANCH_NAME: profile-summary-card-output
+          UTC_OFFSET: 5
