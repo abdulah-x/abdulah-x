@@ -42,4 +42,14 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          plugin_languages_colors: github
+          # GitHub's own palette puts Python (#3572A5) and TypeScript (#3178c6)
+          # on near-identical blues; use distinct tokyonight hues instead
+          plugin_languages_colors: >-
+            typescript:#7aa2f7,
+            python:#e0af68,
+            plpgsql:#bb9af7,
+            html:#f7768e,
+            javascript:#9ece6a,
+            dockerfile:#7dcfff,
+            css:#ff9e64,
+            shell:#ad8ee6
