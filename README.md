@@ -89,8 +89,8 @@ WhatsApp chatbot and Airtable/Python automations running in production for live 
 ### GitHub
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
-  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/main/metrics.languages.svg" alt="Most used languages" />
+  <img height="180" src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
+  <img height="180" src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/main/metrics.languages.svg" alt="Most used languages" />
 </p>
 
 <p align="center">
