@@ -89,12 +89,12 @@ WhatsApp chatbot and Airtable/Python automations running in production for live 
 ### GitHub
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abdulah-x&theme=github_dark" alt="Profile Details" />
+  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=abdulah-x&theme=github_dark" alt="Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=abdulah-x&theme=github_dark" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />
+  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top Languages" />
 </p>
 
 <p align="center">
