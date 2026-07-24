@@ -26,7 +26,18 @@ jobs:
           # empty base: render only the languages panel, no header/activity
           base: ""
           config_timezone: Asia/Karachi
-          config_theme: dark
+          config_padding: 6%
+          # metrics has no dark theme input; restyle to match the tokyonight cards
+          extras_css: |
+            .items-wrapper {
+              background: #1a1b27;
+              border: 1px solid #30374b;
+              border-radius: 6px;
+              padding: 10px 14px;
+            }
+            svg { color: #a9b1d6 !important; }
+            h2, h3 { color: #7aa2f7 !important; font-weight: 600; }
+            .field svg { fill: #7aa2f7 !important; }
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_limit: 8
