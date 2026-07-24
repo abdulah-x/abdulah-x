@@ -20,10 +20,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # AUTO_PUSH is off: the action's own push fails silently and swallows the
+      # error. Generate locally, then publish with the same action snake.yml uses.
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN }}
         with:
           USERNAME: abdulah-x
-          BRANCH_NAME: profile-summary-card-output
+          AUTO_PUSH: false
           UTC_OFFSET: 5
+
+      - name: Fail if no cards were generated
+        run: |
+          test -d profile-summary-card-output || { echo "no output dir"; exit 1; }
+          count=$(find profile-summary-card-output -name '*.svg' | wc -l)
+          echo "generated $count svg files"
+          test "$count" -gt 0 || { echo "no svg files generated"; exit 1; }
+
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: profile-summary-card-output
+          build_dir: profile-summary-card-output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
