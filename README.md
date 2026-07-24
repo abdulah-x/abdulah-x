@@ -1,6 +1,6 @@
-<h1 align="center">Muhammad Abdullah</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=190&section=header&text=Muhammad%20Abdullah&fontSize=46&fontColor=c0caf5&fontAlignY=34&desc=Data%20Engineer%20%C3%97%20AI%20Systems&descSize=18&descAlignY=54" width="100%" alt="Muhammad Abdullah — Data Engineer × AI Systems" />
 
-<h3 align="center">Data Engineer × AI Systems | Pipelines that power intelligent products</h3>
+<h3 align="center">Pipelines that power intelligent products</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/muhammad-abdullah-53b843248/" target="_blank">
@@ -89,16 +89,16 @@ WhatsApp chatbot and Airtable/Python automations running in production for live 
 ### GitHub
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" />
+  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
+  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />
-  <img src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com/?user=abdulah-x&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulah-x&theme=dark&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abdulah-x&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity" />
 </p>
 
 <p align="center">
