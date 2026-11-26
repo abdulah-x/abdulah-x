@@ -120,13 +120,6 @@ Dockerized platform with **8 microservices** running real-time audio + video AI 
   <img src="https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
 </p>
 
-<p align="center"><b>🗄️ Data Engineering</b><br>
-  <img src="https://img.shields.io/badge/-Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Airflow">
-  <img src="https://img.shields.io/badge/-Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark">
-  <img src="https://img.shields.io/badge/-dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt">
-  <img src="https://img.shields.io/badge/-BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="BigQuery">
-</p>
-
 <p align="center"><b>🚀 Automation, Cloud & DevOps</b><br>
   <img src="https://img.shields.io/badge/-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n">
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
