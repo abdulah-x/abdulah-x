@@ -90,7 +90,6 @@ WhatsApp chatbot and Airtable/Python automations running in production for live 
 
 <p align="center">
   <img height="180" src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
-  <img height="180" src="https://raw.githubusercontent.com/abdulah-x/abdulah-x/main/metrics.languages.svg?v=2" alt="Most used languages" />
 </p>
 
 <p align="center">
