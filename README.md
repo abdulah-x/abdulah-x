@@ -1,6 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=190&section=header&text=Muhammad%20Abdullah&fontSize=46&fontColor=c0caf5&fontAlignY=34&desc=Data%20Engineer%20%C3%97%20AI%20Systems&descSize=18&descAlignY=54" width="100%" alt="Muhammad Abdullah — Data Engineer × AI Systems" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=190&section=header&text=Muhammad%20Abdullah&fontSize=46&fontColor=c0caf5&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20RAG%20%C2%B7%20LLMs%20%C2%B7%20Agents&descSize=18&descAlignY=54" width="100%" alt="Muhammad Abdullah — AI Engineer · RAG · LLMs · Agents" />
 
-<h3 align="center">Pipelines that power intelligent products</h3>
+<h3 align="center">LLM systems that are grounded, measured and shipped</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/muhammad-abdullah-53b843248/" target="_blank">
@@ -19,46 +19,55 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2C3E50&center=true&vCenter=true&width=600&lines=Shipped+a+RAG+system+in+production;Built+an+8-microservice+surveillance+platform;Now+going+deeper+into+data+infrastructure" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=7AA2F7&center=true&vCenter=true&width=640&lines=Shipped+a+RAG+relevancy+evaluator+to+production;Built+a+ReAct+agent+on+LangGraph+from+scratch;Every+agent+call+graded+against+baselines" alt="Typing SVG" />
 </p>
 
 ---
 
 ### Introduction
 
-I'm a recent Data Science graduate focused on building reliable data systems for AI-driven products. My experience spans both sides of the stack: I've shipped a production RAG-based relevancy evaluator, built an 8-microservice surveillance platform as my final-year project, and developed n8n automation workflows currently running in live business operations.
+I'm an AI Engineer focused on **RAG, LLM applications and AI agents**. I care about the parts that decide whether an LLM system works in practice: what gets retrieved, which decisions stay in code instead of the model, hard limits on agent loops, and measuring results against simple baselines instead of trusting a demo.
 
-I'm now investing in the core data engineering toolkit — Airflow, Spark, dbt, and cloud warehousing — to deepen the foundation that AI applications depend on.
+I've shipped a RAG-based relevancy evaluator to production, built a hand-written ReAct agent that runs 24/7 and grades its own calls in a live forward test, and run LLM automations in live business operations.
 
-Open to **Data Engineer and AI Engineer opportunities**, remote or Pakistan-based.
+Open to **AI Engineer / LLM Engineer roles**, remote or Pakistan-based, full-time or contract.
 
+## 🧠 What I Work On
+
+- **RAG:** chunking and embeddings, vector search (ChromaDB, Pinecone), two-stage retrieve-then-score pipelines, relevancy evaluation
+- **AI agents:** LangGraph state graphs, tool-calling loops, human-in-the-loop pauses, guardrails, tool/time/round caps
+- **LLM engineering:** structured outputs with Pydantic, prompt-injection defences, rate-limit fallbacks, streaming (SSE), tracing with Langfuse
+- **Evaluation:** golden-set trajectory tests, forward testing, calibration reports against naive baselines
 
 ## ⚡ Currently
 
-- 🔨 **Building** end-to-end ETL pipelines with Airflow + Postgres, Dockerized and scheduled
-- 📚 **Studying** Spark partitioning patterns and dbt project structure
-- 🧪 **Experimenting** with vector DBs and production-grade RAG architectures
-- 💼 **Open to** Data Engineer / AI Engineer roles — full-time or contract
+- 📈 **Running** FinSight's live forward test: 1,400+ graded calls so far, full results in January
+- 🔬 **Going deeper** into agent evaluation and retrieval quality
+- 💼 **Open to** AI Engineer roles
 
 ---
 
 ## 🏗️ Featured Work
 
-### 🦅 Hawk-Ear — Audio-Video Surveillance Platform
-Dockerized platform with **8 microservices** running real-time audio + video analysis. Final Year Project, ~90% solo contribution, evaluated 3× by faculty.  
-`Python` · `Docker` · `FastAPI` · `Microservices`
+### 📊 [FinSight](https://github.com/abdulah-x/FinSight) — ReAct Market-Bias Agent
+Hand-written ReAct agent on LangGraph (no prebuilt agents) that gives a Bullish / Bearish / Neutral bias for BTC, ETH and gold. Guardrail model, parallel evidence tool, `interrupt()` for missing input and hard caps on every loop. The LLM never decides the score: it is computed in code, and every call is graded in a live forward test against simple baselines. Runs 24/7 at $0 on Groq and Oracle Cloud.
+`LangGraph` · `Groq` · `FastAPI` · `PostgreSQL` · `Docker` · `Langfuse`
 
 ### 🤖 RAG-Based Relevancy Evaluator *(Paramount Intelligence)*
-LLM pipeline evaluating content relevance via retrieval-augmented generation. Shipped to production.  
+LLM pipeline evaluating content relevance with retrieval-augmented generation. Shipped to production.
 `Python` · `LLMs` · `Vector Search` · `RAG`
 
-### 💼 VaultX — Crypto Portfolio Analytics
-Full-stack platform tracking P&L, ROI, and allocation across Binance Testnet assets. Data pipeline + dashboard.  
-`Python` · `FastAPI` · `Binance API` · `PostgreSQL`
+### 🎯 [JobRadar](https://github.com/abdulah-x/JobRadar) — RAG Job Matching
+Two-stage pipeline: embeddings + ChromaDB filter jobs against resume chunks at no LLM cost, then Gemini scores the survivors with the top-3 retrieved chunks and returns structured output (score, matching / missing skills, seniority). Groq fallback on rate limits.
+`RAG` · `ChromaDB` · `Gemini` · `Pydantic` · `Docker`
 
-### ⚙️ n8n Production Workflows *(Paramount Intelligence)*
-WhatsApp chatbot and Airtable/Python automations running in production for live business operations.  
-`n8n` · `Python` · `Webhooks` · `Airtable`
+### ⚙️ [AI Automation Workflows](https://github.com/abdulah-x/n8n) — n8n
+Voice AI receptionist backend (Vapi, 9 workflows), a daily AI news digest with Pinecone dedup, and a WhatsApp chatbot running in production at Paramount Intelligence.
+`n8n` · `Gemini` · `Pinecone` · `Webhooks`
+
+### 🦅 Hawk-Ear — Audio-Video Surveillance Platform
+Dockerized platform with **8 microservices** running real-time audio + video AI analysis. Final Year Project, ~90% solo contribution.
+`Python` · `FastAPI` · `Docker` · `Microservices`
 
 ---
 
@@ -66,19 +75,16 @@ WhatsApp chatbot and Airtable/Python automations running in production for live 
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph">
+  <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
+  <img src="https://img.shields.io/badge/-Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
+  <img src="https://img.shields.io/badge/-Groq-F55036?style=for-the-badge" alt="Groq">
+  <img src="https://img.shields.io/badge/-ChromaDB-FF6446?style=for-the-badge" alt="ChromaDB">
+  <img src="https://img.shields.io/badge/-Pinecone-000000?style=for-the-badge" alt="Pinecone">
+  <img src="https://img.shields.io/badge/-Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic">
   <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/-BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="BigQuery">
-  <img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/-Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Airflow">
-  <img src="https://img.shields.io/badge/-Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark">
-  <img src="https://img.shields.io/badge/-dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt">
   <img src="https://img.shields.io/badge/-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n">
-  <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
-  <img src="https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
   <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
